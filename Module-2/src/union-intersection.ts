@@ -1,3 +1,4 @@
+/*
 type NoobDeveloper = {
     name: string;
 };
@@ -51,3 +52,4 @@ const developer: NextLevelDeveloper = {
     leadershipExperience: 1,
     level: 'mid',
 };
+*/

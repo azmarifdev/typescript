@@ -1,3 +1,4 @@
+/*
 type genericType<T> = Array<T>;
 
 const rollNumber: genericType<number> = [65, 78, 63];
@@ -51,3 +52,4 @@ const salary: GenericTupleType<ObjectForGeneric, boolean> = [
     true,
 ];
 
+*/

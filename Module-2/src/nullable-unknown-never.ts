@@ -1,3 +1,4 @@
+/*
 // nullable
 const searchName = (value: string | null) => {
     if (value === null) {
@@ -33,3 +34,4 @@ function throwError(message: string): never {
     throw new Error(message);
 }
 // throwError('This error for testing purposes');
+*/

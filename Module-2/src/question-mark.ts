@@ -1,3 +1,4 @@
+/*
 const age: number = 18;
 
 if (age >= 25) {
@@ -51,3 +52,4 @@ let obj: Object = {key: 'value'}
 let obj2: {} = {key: 'value'}
 console.log("obj", obj);
 console.log("obj2", obj2);
+*/

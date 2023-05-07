@@ -1,3 +1,4 @@
+/*
 const userData: {
     name: string;
     readonly company: 'azmarifcode';
@@ -12,3 +13,4 @@ const userData: {
 };
 
 // console.log(userData.company)
+*/

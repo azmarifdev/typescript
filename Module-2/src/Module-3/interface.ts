@@ -1,3 +1,4 @@
+/*
 interface Interface {
     name: string;
     role: string;
@@ -16,3 +17,4 @@ const interfaceUser: ExtraInterface = {
     age: 30,
     address: 'unknown',
 };
+*/

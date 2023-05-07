@@ -1,10 +1,15 @@
+
+/*
+
 let assertion: any;
 assertion = 'arif';
 
 (assertion as string).length
 // <string>assertion.length;
 
-function kgToGram(param: string | number): string | number | undefined {
+
+function kgToGram(param: string | number): string | number | undefined
+{
     if (typeof param === 'string') {
         const value = parseFloat(param) * 1000;
         return value;
@@ -26,3 +31,4 @@ try {
 } catch (error) {
     console.log((error as CustomErrorType).message);
 }
+*/

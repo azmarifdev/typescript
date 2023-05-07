@@ -1,3 +1,4 @@
+/*
 type CrushType = {
     name: string;
     age?: number;
@@ -35,3 +36,4 @@ const calculateFunc = (
 };
 
 console.log(calculateFunc(10, 20, (x, y) => x + y));
+*/
