@@ -24,6 +24,7 @@ const userName2 = isAuthenticatedUser ? isAuthenticatedUser : 'Guest';
 // console.log({ userName }, { userName2 });
 
 type man = {
+    array: number[],
     name: string;
     age: number;
     address: {
@@ -34,6 +35,7 @@ type man = {
 };
 
 const man1: man = {
+    array: [45, 65],
     name: 'arif',
     age: 18,
     address: {
