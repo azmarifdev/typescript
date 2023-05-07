@@ -19,4 +19,35 @@ const userNameAndRollNumber: genericType<ObjectType> = [
     },
 ];
 
+// generic tuple
+
+type GenericTupleType<X, Y> = [X, Y];
+
+const relation: GenericTupleType<string, number> = ['azmarif', 56];
+const roleAndAddress: GenericTupleType<string, string> = ['admin', 'unknown'];
+
+type ObjectForGeneric = {
+    name?: string;
+    firstName?: string;
+    lastName?: string;
+    salary?: number;
+};
+
+// -- this is not best practice
+// const details: GenericTupleType<object, string> = [
+//     { firstName: 'azm', lastName: 'arif' },
+//     'azmarif',
+// ];
+
+// this is not best practice
+const details: GenericTupleType<ObjectForGeneric, string> = [
+    { firstName: 'azm', lastName: 'arif' },
+    'azmarif',
+];
+
+// best practice code here
+const salary: GenericTupleType<ObjectForGeneric, boolean> = [
+    { name: 'azm arif', salary: 10000 },
+    true,
+];
 
