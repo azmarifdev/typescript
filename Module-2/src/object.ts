@@ -11,4 +11,4 @@ const userData: {
     company: 'azmarifcode'
 };
 
-console.log(userData.company)
+// console.log(userData.company)
