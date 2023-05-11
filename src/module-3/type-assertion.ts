@@ -1,4 +1,4 @@
-"use strict";
+
 /*
 
 let assertion: any;
@@ -31,4 +31,7 @@ try {
 } catch (error) {
     console.log((error as CustomErrorType).message);
 }
-*/ 
+*/
+
+
+
