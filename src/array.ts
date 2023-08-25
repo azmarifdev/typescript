@@ -1,0 +1,1 @@
+const nameArray: string[] = ['arif', 'azm']

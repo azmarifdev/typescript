@@ -6,3 +6,6 @@
 // 4. Boolean
 // 5. Undefined
 
+// const names: string = 'arif'
+// const age: number = 23;
+// const isMale: boolean = true;
